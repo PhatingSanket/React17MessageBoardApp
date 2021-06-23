@@ -1,0 +1,44 @@
+{
+  "messages": [
+    {
+      "id": "2f156fec-1300-4ba6-98e0-9874b992645c",
+      "message": "sanket is here",
+      "parentId": null,
+      "authorName": "Sanket",
+      "author": "7208caf6-69df-4b9e-b158-d4610df504a5",
+      "date": "6/23/2021"
+    },
+    {
+      "id": "9132b681-fbb8-4e62-a68a-0808f3656a9e",
+      "message": "sneha is here",
+      "parentId": null,
+      "authorName": "Sneha",
+      "author": "c8dea647-91c2-475d-b758-92af9b61bf3d",
+      "date": "6/23/2021"
+    },
+    {
+      "id": "ee5830a9-e2a8-4336-b001-2e627f375c3b",
+      "message": "Hi  Sanket! How are you?",
+      "parentId": "2f156fec-1300-4ba6-98e0-9874b992645c",
+      "authorName": "Sneha",
+      "author": "c8dea647-91c2-475d-b758-92af9b61bf3d",
+      "date": "6/23/2021"
+    }
+  ],
+  "login": [
+    {
+      "id": "7208caf6-69df-4b9e-b158-d4610df504a5",
+      "name": "Sanket",
+      "email": "saph@tdc.dk",
+      "password": "b",
+      "date": "6/23/2021"
+    },
+    {
+      "id": "c8dea647-91c2-475d-b758-92af9b61bf3d",
+      "name": "Sneha",
+      "email": "sneha@tdc.dk",
+      "password": "b",
+      "date": "6/23/2021"
+    }
+  ]
+}
