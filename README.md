@@ -1,3 +1,11 @@
+# To run the message-board-app
+
+To start the project run npm run dev . You’ll see that your json-server is running on localhost:5000, and your react app will open automatically on localhost:3000
+
+In the project directory, you can run:
+
+### `npm run dev`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

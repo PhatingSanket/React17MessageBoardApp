@@ -1,44 +1,44 @@
 {
   "messages": [
     {
-      "id": "2f156fec-1300-4ba6-98e0-9874b992645c",
-      "message": "sanket is here",
+      "id": "edaf3245-ecc6-49fc-8af6-4bcd588e3c4a",
+      "message": "Sanket is here",
       "parentId": null,
-      "authorName": "Sanket",
-      "author": "7208caf6-69df-4b9e-b158-d4610df504a5",
-      "date": "6/23/2021"
+      "authorName": "Sanket Phating",
+      "author": "9f895cdc-1bea-4ae3-90d4-28ad257dac29",
+      "date": "6/24/2021"
     },
     {
-      "id": "9132b681-fbb8-4e62-a68a-0808f3656a9e",
-      "message": "sneha is here",
-      "parentId": null,
+      "id": "86df2d60-9c73-4032-b555-b061df67e46e",
+      "message": "Hi Sanket ! How are you?",
+      "parentId": "edaf3245-ecc6-49fc-8af6-4bcd588e3c4a",
       "authorName": "Sneha",
-      "author": "c8dea647-91c2-475d-b758-92af9b61bf3d",
-      "date": "6/23/2021"
+      "author": "8ee60b55-61a7-47f3-8320-9ec18b4ab176",
+      "date": "6/24/2021"
     },
     {
-      "id": "ee5830a9-e2a8-4336-b001-2e627f375c3b",
-      "message": "Hi  Sanket! How are you?",
-      "parentId": "2f156fec-1300-4ba6-98e0-9874b992645c",
-      "authorName": "Sneha",
-      "author": "c8dea647-91c2-475d-b758-92af9b61bf3d",
-      "date": "6/23/2021"
+      "id": "0f18e8c9-3877-4c49-b01b-189abb701e61",
+      "message": "I am good",
+      "parentId": "edaf3245-ecc6-49fc-8af6-4bcd588e3c4a",
+      "authorName": "Sanket Phating",
+      "author": "9f895cdc-1bea-4ae3-90d4-28ad257dac29",
+      "date": "6/24/2021"
     }
   ],
   "login": [
     {
-      "id": "7208caf6-69df-4b9e-b158-d4610df504a5",
-      "name": "Sanket",
-      "email": "saph@tdc.dk",
+      "id": "9f895cdc-1bea-4ae3-90d4-28ad257dac29",
+      "name": "Sanket Phating",
+      "email": "sanket@gmail.com",
       "password": "b",
-      "date": "6/23/2021"
+      "date": "6/24/2021"
     },
     {
-      "id": "c8dea647-91c2-475d-b758-92af9b61bf3d",
+      "id": "8ee60b55-61a7-47f3-8320-9ec18b4ab176",
       "name": "Sneha",
-      "email": "sneha@tdc.dk",
+      "email": "sneha@gmail.com",
       "password": "b",
-      "date": "6/23/2021"
+      "date": "6/24/2021"
     }
   ]
 }
