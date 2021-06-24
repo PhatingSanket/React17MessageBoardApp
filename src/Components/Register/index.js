@@ -116,7 +116,9 @@ const Register = (props) => {
           )}
           {signUpSuccess && (
             <div>
-              <h4>{"Successfully Registered! Click Login to authenticate."}</h4>
+              <h3 className="ui header">
+                Successfully Registered! Click Login to authenticate.
+              </h3>
               <div className="middle aligned column">
                 <button className="ui large button" onClick={Login}>
                   <i aria-hidden="true" className="user icon"></i>Login

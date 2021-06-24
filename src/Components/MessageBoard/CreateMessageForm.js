@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashRouter as Router, Link } from "react-router-dom";
 const CreateMessageForm = ({
   inputMessage,
   handleSubmit,
@@ -35,7 +35,11 @@ const CreateMessageForm = ({
   ) : (
     <div className="Shift-down">
       <p>
-        Please <Link to="/Login">Login</Link> to create a new message thread
+        Please{" "}
+        <Router>
+          <Link to="/Login">Login</Link>
+        </Router>{" "}
+        to create a new message thread
       </p>
     </div>
   );

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useHistory } from "react-router-dom";
+import { HashRouter as Router, Link, useHistory } from "react-router-dom";
 import axios from "axios";
 const Login = ({ loginHandler }) => {
   const initialValues = {
@@ -96,11 +96,13 @@ const Login = ({ loginHandler }) => {
           )}
         </div>
         <div className="middle aligned column">
-          <Link to="Register">
-            <button className="ui large button">
-              <i aria-hidden="true" className="signup icon"></i>Sign up
-            </button>
-          </Link>
+          <Router>
+            <Link to="Register">
+              <button className="ui large button">
+                <i aria-hidden="true" className="signup icon"></i>Sign up
+              </button>
+            </Link>
+          </Router>
         </div>
       </div>
       <div className="ui vertical divider">Or</div>

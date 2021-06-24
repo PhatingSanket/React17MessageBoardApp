@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashRouter as Router, Link } from "react-router-dom";
 const PageNotFound = () => {
   return (
     <div className="ui left aligned placeholder segment">
@@ -7,7 +7,9 @@ const PageNotFound = () => {
         Sorry the page you're looking for can't be found!
       </h3>
       <p>
-        <Link to="/">Home</Link>
+        <Router>
+          <Link to="/">Home</Link>
+        </Router>
       </p>
     </div>
   );

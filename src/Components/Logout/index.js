@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { HashRouter as Router, Link } from "react-router-dom";
 const Logout = ({ logOutHandler }) => {
   const [logOut, setLogOut] = useState(false);
   useEffect(() => {
@@ -17,7 +17,11 @@ const Logout = ({ logOutHandler }) => {
         <div>
           <h3 className="ui header">Logout Successfully</h3>
           <p>
-            Please go to <Link to="/">Home</Link> page to see the messages.
+            Please go to{" "}
+            <Router>
+              <Link to="/">Home</Link>
+            </Router>{" "}
+            page to see the messages.
           </p>
         </div>
       )}
