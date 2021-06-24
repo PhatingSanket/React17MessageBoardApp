@@ -26,18 +26,31 @@ function App() {
   return (
     <div className="App">
       <Header userInfo={_userInfo} logOut={_logOut} />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
-          <Route exact path="/" component={Messages}></Route>
-          <Route exact path="/About" component={About}></Route>
-          <Route exact path="/Contact" component={Contact}></Route>
           <Route
-            path="/Login"
+            exact
+            path={process.env.PUBLIC_URL + "/"}
+            component={Messages}
+          ></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/About"}
+            component={About}
+          ></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/Contact"}
+            component={Contact}
+          ></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/Login"}
             render={(props) => <Login {...props} loginHandler={loginHandler} />}
           />
-          <Route path="/Register" component={Register}></Route>
           <Route
-            path="/Logout"
+            path={process.env.PUBLIC_URL + "/Register"}
+            component={Register}
+          ></Route>
+          <Route
+            path={process.env.PUBLIC_URL + "/Logout"}
             render={(props) => (
               <Logout {...props} logOutHandler={logOutHandler} />
             )}

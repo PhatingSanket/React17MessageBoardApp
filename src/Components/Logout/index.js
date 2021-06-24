@@ -18,7 +18,7 @@ const Logout = ({ logOutHandler }) => {
           <h3 className="ui header">Logout Successfully</h3>
           <p>
             Please go to{" "}
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
               <Link to="/">Home</Link>
             </Router>{" "}
             page to see the messages.

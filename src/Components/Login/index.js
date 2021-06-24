@@ -96,7 +96,7 @@ const Login = ({ loginHandler }) => {
           )}
         </div>
         <div className="middle aligned column">
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Link to="Register">
               <button className="ui large button">
                 <i aria-hidden="true" className="signup icon"></i>Sign up

@@ -31,7 +31,7 @@ const Header = ({ userInfo, logOut }) => {
         <div className="">
           <div className="">
             <h2>Message Board App</h2>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
               <div className="ui pointing menu">
                 <NavLink
                   exact
