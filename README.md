@@ -1,10 +1,26 @@
-# To run the message-board-app
+# Getting Started with message-board-app
 
-To start the project run npm run dev . You’ll see that your json-server is running on localhost:5000, and your react app will open automatically on localhost:3000
+#1 Download the project zip from github
 
-In the project directory, you can run:
+#2 Open the project in VS code
 
-### `npm run dev`
+#3 Open the terminal or command prompt
+
+#4 go to the project path directory in your terminal or command prompt
+
+#5 Open the terminal or command prompt
+
+#6 Run command 'json-server --watch db.json --port 5000' to start the mock json api
+
+### `json-server --watch db.json --port 5000`
+
+#7 Run command 'npm start' to start the application on default port 3000. HashRouter used in project. Hence url will be http://localhost:3000/#/
+
+### `npm start`
+
+#8 For test run command 'npm run test'
+
+### `npm run test`
 
 # Getting Started with Create React App
 

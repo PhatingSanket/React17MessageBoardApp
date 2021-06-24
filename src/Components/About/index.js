@@ -1,3 +1,4 @@
+import React from "react";
 const About = () => {
   return (
     <div className="ui left aligned placeholder segment">

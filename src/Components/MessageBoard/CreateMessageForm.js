@@ -36,7 +36,7 @@ const CreateMessageForm = ({
     <div className="Shift-down">
       <p>
         Please{" "}
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <Link to={process.env.PUBLIC_URL + "/Login"}>Login</Link>
         </Router>{" "}
         to create a new message thread

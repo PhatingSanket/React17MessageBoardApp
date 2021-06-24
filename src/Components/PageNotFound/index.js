@@ -7,7 +7,7 @@ const PageNotFound = () => {
         Sorry the page you're looking for can't be found!
       </h3>
       <p>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
           <Link to="/">Home</Link>
         </Router>
       </p>
