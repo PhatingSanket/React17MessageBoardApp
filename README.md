@@ -18,7 +18,11 @@
 
 ### `npm start`
 
-#8 For test run command 'npm run test'
+#8 if there is an error running script run command 'npm install react-scripts --save'
+
+### `npm install react-scripts --save`
+
+#9 For test run command 'npm run test'
 
 ### `npm run test`
 
